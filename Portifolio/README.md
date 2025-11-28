@@ -1,17 +1,27 @@
-Ordenação e Análise de Desempenho — entrega A2
-Descrição
-Implementação de três métodos de ordenação em C: *Insertion Sort, *Merge Sort e Quick Sort (Lomuto). O programa ordena os dígitos do seu RGM (fornecido como string) e executa benchmarks em vetores aleatórios de tamanhos configuráveis.
 
-Políticas de contagem de passos
-Comparações: incremento em steps_cmp toda vez que um teste if relevante ao algoritmo é efetuado para decidir uma ordenação/partição.
-Trocas / Movimentações: incremento em steps_swap sempre que um elemento é movido (atribuição que altera posições relevantes) ou o swap é feito.
-Estas políticas estão implementadas em src/sorts.c com macros COUNT_CMP e COUNT_SWAP.
-Como compilar
-make
-Executável: ./ordena (ex.: ./ordena 2170246)
-Saída
-O programa imprime CSV na saída padrão com colunas:caso pode ser rgm ou aleatorio. Cada medição é a média de 5 execuções.
 
-Observações importantes
-Evite compilar com -O3 ao medir passos, pois otimizações agressivas podem eliminar/alterar operações contadas. O Makefile usa -O1.
-Altere os tamanhos em src/main.c (array sizes[]) se quiser mais pontos da maldição 
+Olá, eu sou Elídio.
+Sou estudante de Tecnologia da Informação e estou construindo minha jornada na área com foco, dedicação e evolução constante.
+
+Gosto de entender como as coisas funcionam, aprender novas ferramentas e transformar ideias em projetos reais.
+Tenho experiência inicial com:
+
+Modelagem de Banco de Dados (DER completo, modelo conceitual, lógico e físico)
+
+Normalização (1FN, 2FN e 3FN aplicadas corretamente)
+
+Projetos HTML estruturados e bem organizados
+
+Git e GitHub, criando repositórios, READMEs e portfólios
+
+Documentação profissional (currículos, relatos, certificações)
+
+
+Também participei de processo seletivo, organizei meus materiais acadêmicos e comecei a montar meu portfólio profissional para preparar minha entrada no mercado de tecnologia.
+
+Sou alguém determinado, curioso e disciplinado.
+Quando quero aprender algo, eu vou atrás, pratico, melhoro e faço acontecer.
+Cada projeto que eu crio, cada repositório que organizo e cada atividade que entrego representa um passo na minha evolução — tanto na faculdade quanto na vida.
+
+Ainda estou no começo, mas tenho ambição, vontade e coragem para crescer na área de TI.
+E sei que esse é só o início da minha vida
